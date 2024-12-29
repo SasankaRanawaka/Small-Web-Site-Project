@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>blogs</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <section class="sub-header" >
+
+    <nav>
+      <a href="index.html"><img src="./img/logo.png" style="width: 150px;"></a>
+
+      <div class="navlinks" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"  style="cursor: pointer; color: #fff; font-size: 1.5rem; margin: 5px;"></i>
+        <ul>
+          
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars"  onclick="showMenu()" style="cursor: pointer; color: #fff;font-size: 1.5rem;"></i>
+      
+    </nav>
+
+    <h1>Our certificate and online programms for 2021.</h1>
+  </section>
+
+ 
+  <section class="blog-content">
+
+    <div class="row">
+      <div class="blog-left">
+        <img src="./img/certificate.jpg" alt="">
+        <h2>Our certificate and online programms for 2021</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, explicabo est sequi soluta earum laborum dolorum atque, aliquam quia quos, velit suscipit expedita architecto? Eius at ipsum eveniet perspiciatis aspernatur.
+        Quae corporis, itaque, fugit quisquam, repellat facere harum ut blanditiis sed dignissimos odio nulla reiciendis! Omnis, dolore obcaecati voluptatem consectetur debitis magni eos apecessitatibus omnis. Tenetur blanditiis ullam accusamus cum, maxime labore modi.</p>
+        <br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus repellendus aliquam magnam et delectus optio, aperiam possimus autem porro sequi rem officia quibusdam culpa ea fugit, voluptatum eveniet eaque deleniti?
+        Debitis, eveniet odit tempora voluptatem cupiditate deleniti doloribus quia hic, reprehenderit, quisquam quaerat! Delectus, esse quisquam praesentium, repellendus dolorem ducimus architecto maiores possimus quod ea eaque nisi. Omnis, exercitationem labore.
+        Debitis error cumque minus, alias esse nulla? Sapiente, itaque, pariatur dicta beatae nulla ex iusto odit ullam nam expedita corrupti suscipit odio eveniet alias, sequi iste. Odit amet autem ullam.
+        Incidunt voluptate ipsam labore rem veritatis aut vero! Suscipit voluptas maiores eveniet excepturi ab enim odit deserunt debitis tempore sed ducimus quas earum autem, qui ratione molestiae deleniti, esse inventore!
+        Voluptatem dolor, corrupti nostrum officiis maxime enim id vitae repellendus dignissimos, consequatur accusantium possimus adipisci dicta natus. Tempora error doloribus hic accusantium non nostrum aspernatur deserunt est cupiditate! Magnam, ex.</p>
+        <br>
+    
+
+        <div class="comment-box">
+          <h3>leave a comment</h3>
+
+          <form class="comment-form">
+            <input type="text" placeholder="Enter name">
+            <input type="email" placeholder="Enter Email">
+            <textarea  rows="5" placeholder="Your comment"></textarea>
+            <button type="submit" class="red-btn">Post a comment</button>
+          </form>
+        </div>
+      </div>
+      <div class="blog-right">
+
+        <h2>Post catagories</h2>
+        <div>
+          <span>Business Analysics</span>
+          <span>80</span>
+        </div>
+
+        <div>
+          <span>Software Engineer</span>
+          <span>124</span>
+        </div>
+
+        <div>
+          <span>Markating Executive</span>
+          <span>56</span>
+        </div>
+
+        <div>
+          <span>Bio medicle Engineer</span>
+          <span>25</span>
+        </div>
+
+        <div>
+          <span>Network Engineer</span>
+          <span>96</span>
+        </div>
+      </div>
+    </div>
+   
+
+    
+  </section>
+
+  
+<!-------------footer--------------->
+
+<section class="footer">
+  <h4>About us</h4>
+  <p>The World Largest University | Assesability</p>
+
+<div class="icons">
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-twitter"></i>
+  <i class="fa fa-linkedin"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-youtube"></i>
+</div>
+<p>Copyright <i class="fa fa-copyright"></i> The regents of the univerity.All right reserved.</p>
+</section>
+
+
+  <script>
+
+    var navLinks=document.getElementById("navLinks");
+    
+     function showMenu(){
+      navLinks.style.right="0";
+     }
+
+     function hideMenu(){
+      navLinks.style.right="-200px";
+     }
+  </script>
+  
+</body>
+</html>

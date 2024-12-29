@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contacts</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <section class="sub-header" >
+
+    <nav>
+      <a href="index.html"><img src="./img/logo.png" style="width: 150px;"></a>
+
+      <div class="navlinks" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"  style="cursor: pointer; color: #fff; font-size: 1.5rem; margin: 5px;"></i>
+        <ul>
+          
+         
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars"  onclick="showMenu()" style="cursor: pointer; color: #fff;font-size: 1.5rem;"></i>
+      
+    </nav>
+
+    <h1>Contact us</h1>
+  </section>
+
+  
+<!-------------Contacts--------------->
+
+<section class="cont">
+
+  <br> <br>
+
+ <div class="fff">
+   <img src="./img/logo.png" style="width: 280px; height: 80px; margin: 2rem; ">
+  
+</div>
+  
+  <div class="list">
+    <ul>
+      <h2>Online Options</h2>
+      <li>CC global online</li>
+      <li>CC online</li>
+      
+    </ul>
+
+    <ul>
+      <h2>About CC</h2>
+      <li>Overview</li>
+      <li>CC Difference</li>
+      <li>Mission & Values</li>
+      <li>Honers & Accedaration</li>
+      <li>Administration</li>
+      <li>Employment</li>
+      <li>Mapss & Directions </li>
+      <li>Contact Us</li>
+    </ul>
+
+    <ul>
+      <h2>Academic Programmes</h2>
+      <li>Overview</li>
+      <li>Programming Campaigns</li>
+      <li>Web Devalopment Designs</li>
+      <li>Ethanical Hacking</li>
+      <li>Graphic Works</li>
+    </ul>
+
+    <ul>
+      <h2>Campus locations</h2>
+      <li>Boston</li>
+      <li>Lawerence</li>
+      <li>Pureto Rico</li>
+      <li>Southern Califonia</li>
+    </ul>
+
+
+  </div> <br><br>
+
+
+<section class="contact-us">
+
+  <div class="row">
+
+    <div class="contact-col">
+      <div>
+        <i class="fa fa-home"></i>
+      <span>
+        <h5>508,Sagar Apt,Naryan Nagar, </h5>
+        <p>Bngalore,karnataka,India.</p>
+      </span>
+      </div>
+      <div>
+        <i class="fa fa-phone"></i>
+      <span>
+        <h5>+91022289150 </h5>
+        
+      </span>
+      </div>
+      <div>
+        <i class="fa fa-envelope-o"></i>
+      <span>
+        <h5>biggestuniversity@gmail.com</h5>
+        <p>Email for your questions</p>
+      </span>
+      </div>
+    </div>
+
+    <div class="contact-col">
+      <h1>Write your comment and send </h1> <br><br> 
+      <form >
+
+       
+        <input type="text" placeholder="Enter your name" required>
+        <input type="email" placeholder="Enter your email" required>
+        <input type="text" placeholder="Enter your subject" required>
+        <textarea placeholder="message" rows="8" required></textarea>
+        <button type="submit" class="red-btn"  style="color: #fff; border: 1px solid white;">Send message</button>
+      </form>
+
+    </div>
+    
+  </div>
+</section>
+
+</section>
+
+<!-------------footer--------------->
+
+<section class="footer-f">
+  <br><br> <br> <br> <br>
+  <h4 style="color: #fff;">About us</h4>
+  <p  style="color: #fff;">The World Largest University | Assesability</p>
+
+<div class="icons">
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-twitter"></i>
+  <i class="fa fa-linkedin"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-youtube"></i>
+</div>
+
+<p style="color: #a83030;">Copyright <i class="fa fa-copyright"></i> The regents of the univerity.All right reserved.</p>
+</section>
+
+
+  <script>
+
+    var navLinks=document.getElementById("navLinks");
+    
+     function showMenu(){
+      navLinks.style.right="0";
+     }
+
+     function hideMenu(){
+      navLinks.style.right="-200px";
+     }
+  </script>
+  
+</body>
+</html>

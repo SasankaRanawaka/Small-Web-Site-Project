@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <section class="sub-header" >
+
+    <nav>
+      <a href="index.html"><img src="./img/logo.png" style="width: 150px;"></a>
+
+      <div class="navlinks" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"  style="cursor: pointer; color: #fff; font-size: 1.5rem; margin: 5px;"></i>
+        <ul>
+          
+         
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars"  onclick="showMenu()" style="cursor: pointer; color: #fff;font-size: 1.5rem;"></i>
+      
+    </nav>
+
+    <h1>Our courses</h1>
+  </section>
+
+  <!-------------courses--------------->
+
+  <section class="course">
+
+
+    <h1>The various Courses you have choosing</h1>
+    <p>we are sevaral courses in your choosing like.</p>
+      <div class="row">
+        <div class="course-col">
+
+          <h3  class="sty">Programming</h3>
+          <p>Programming is most powerful to system designs,software designs and many more things.We are focus to In 
+            <b>Python,Java,C/C++ languages.</b>The basic fundamental courses are very helpful to begginer students.</p>
+        </div>
+
+        <div class="course-col">
+
+          <h3  class="sty" >Web Designes</h3>
+          <p>Web Designs has very interractive part.We are create to web sites to this course.The goal of this course create a full stack web devaloper in Back end and Front end.</p>
+        </div>
+
+        <div class="course-col">
+
+          <h3 class="sty">Graphic Designes</h3>
+          <p>Graphic Design is very popular side of wolrd now.Most of people has working this course and earnings money.This is very use to designs systems,web sites,other requirments</p>
+        </div>
+      </div>
+
+  </section>
+<!-------------facilities--------------->
+
+<div style="background-color: rgb(234, 236, 235); border-radius: 30px; margin: 50px;">
+  <section class="facilities"> 
+    <h1>Our facilities</h1>
+    <p>The goal of the facilities Management is to provide the safety,highly quality and best va;ue research,teaching and residental environment possible for faculty and students to leave ,learn,work. </p>
+    <div class="row">
+      <div class="facilities-col">
+        <img src="./img/library.png" alt="">
+        <h3>World class liarbrary</h3>
+        <p>We have a largest world class library.The library house more than 11 million items,including many of historical importance:four copies of the magna Carta,Shakespeare's First Foilo (from 1623) just to name few.</p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="./img/basketball.png" alt="">
+        <h3>International stadium</h3>
+        <p>we have a  10000 squares sport hall.It is available for various activities daily such as cricket
+          volley ball,badminton,foot ball,Rugby and tennis.
+        </p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="./img/cafeteria.png" alt="">
+        <h3>Largest cafeteria</h3>
+        <p>And we have largest cafeteria.It has sitting available 500 students.Addionally,it has indoor and outdoor seating that can accommodate another guests.Various foods are make daily.</p>
+      </div>
+    </div>
+  </section>
+</div>
+<!-------------footer--------------->
+
+<section class="footer">
+  <h4>About us</h4>
+  <p>The World Largest University | Assesability</p>
+
+<div class="icons">
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-twitter"></i>
+  <i class="fa fa-linkedin"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-youtube"></i>
+</div>
+<p>Copyright <i class="fa fa-copyright"></i> The regents of the univerity.All right reserved.</p>
+</section>
+
+
+  <script>
+
+    var navLinks=document.getElementById("navLinks");
+    
+     function showMenu(){
+      navLinks.style.right="0";
+     }
+
+     function hideMenu(){
+      navLinks.style.right="-200px";
+     }
+  </script>
+  
+</body>
+</html>
